@@ -17,7 +17,6 @@ class GetAllUser implements GetAllTableFromDatabase{
     }) 
   }
 }
-
 export class GetAllFactory{
   private static _instance: GetAllFactory
 

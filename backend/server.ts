@@ -53,7 +53,6 @@ class ServerFacade{
     this.server.connectDB()
     this.server.createHost(env.PORT)
   }
-
 }
 
 ServerFacade.getInstance().createServer()

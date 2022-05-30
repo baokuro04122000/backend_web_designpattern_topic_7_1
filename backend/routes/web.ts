@@ -95,7 +95,9 @@ class TestRouter extends InitRoutes{
     this.router.get('/test/getAllProduct',(req:Request, res:Response)=>{
       TestGetAllUsers.getInstance().testProduct(req, res)
     })
-    
+    this.router.get('/test/testCompositeProduct', (req:Request, res:Response)=>{
+      TestGetAllUsers.getInstance().testCompositeProduct(req, res)
+    })
     this.initRoutes()
   }
 }
